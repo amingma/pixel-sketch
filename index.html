@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <div>
+            <button id="pen-toggle"><span>Pen: </span><span class="strong">ON</span><span>/</span><span>OFF</span></button>
+            <button id="rainbow-toggle"><span>Rainbow Colors: </span><span class="strong">ON</span><span>/</span><span>OFF</span></button>
+        </div>
+        <div>
+            <label for="pixel">Enter desired pixel resolution (max 100): </label>
+            <input id="pixel" type="number" min="1" max="100" value="16"></div>
+        </div>
+    </div>
+    <div id="container"></div>
+</body>
+<script src="script.js"></script>
+</html>

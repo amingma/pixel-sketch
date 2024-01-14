@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+#container {
+    width: 40%;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    border: 1px black solid;
+    aspect-ratio: 1/1;
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.strong {
+    font-weight: bold;
+}
